@@ -1,8 +1,8 @@
 algoritmo "SHOPING CAR"
-// Função : DESENVOLVER UM SISTEMA DE LOGIN E SENHA COM VENDA DE VEICULOS
+// FunÃ§Ã£o : DESENVOLVER UM SISTEMA DE LOGIN E SENHA COM VENDA DE VEICULOS
 // Autor :DAVID VICENTE DE LIMA
 // Data : 09/05/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 //var do login
 login:caractere
@@ -24,7 +24,7 @@ ACESSO2:INTEIRO
 //CADASTRO DE VEICULO PELO OPERADOR DO SISTEMA
 VEICULO,VENDA,CARACTERISTICAS,ANO:INTEIRO
 VALOR:REAL
-//FIM DE CADASTRO DE VEICULOS
+//FIM DE CADASTRO DE VEICULOS fgwgwg
 
 
 inicio
@@ -50,7 +50,7 @@ ATE (logininformado = login) e (senhainformada = senha)
 // FIM DE LOGIN E SENHA
 
 
-//DEI UM VALOR FIXO PARA A VARIAVÉL
+//DEI UM VALOR FIXO PARA A VARIAVÃ‰L
    CARRO1 <- "HILUX ANO 2022,CABINE DUPLA, COR: PRETA, VALOR R$230.000,00"
    CARRO2 <- "HILUX ANO 2023,CABINE ESTENDIDA, COR: PRETA, VALOR R$330.000,00"
    CARRO3 <- "HILUX ANO 2023,CABINE DUPLA, COR: PRETA, VALOR R$340.000,00"
@@ -58,7 +58,7 @@ ATE (logininformado = login) e (senhainformada = senha)
    CARRO5 <- "COROLLA ANO 2022,BLINDADO, COR: VERMELHA, VALOR R$120.000,00"
 //------------------------------------------------------------------------------
 
-//INICIO DO SISTEMA DE OPERAÇOES
+//INICIO DO SISTEMA DE OPERAÃ‡OES
 
    ESCREVAL("SEJA BEM-VINDO A LOJA BOA COMPRA")
    ESCREVAL("---------------------------------")
@@ -69,7 +69,7 @@ ATE (logininformado = login) e (senhainformada = senha)
    
    se local = 1 entao
    
-   ESCREVA("OLÁ, ESSA SÃO TODAS AS NOSSAS OPÇOES DE VEICULOS DISPONIVEIS ")
+   ESCREVA("OLÃ, ESSA SÃƒO TODAS AS NOSSAS OPÃ‡OES DE VEICULOS DISPONIVEIS ")
    ESCREVAL("------------------------------------------------------------------")
    ESCREVAL(CARRO1)
    ESCREVAL("------------------------------------------------------------------")
